@@ -2,13 +2,76 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="image/Asset_1.png">
+    <meta charset="UTF-8">
     <title>Classic Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
+    <header class="site-header">
+        <h1>Classic Home</h1>
+        <p>Home Essentials Shopping</p>
+    </header>
+
+    <div class="page-layout">
+
+        <!-- LEFT MENU -->
+        <nav class="side-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!--<li><a href="kitchen.html">Kitchen</a></li>
+                <li><a href="#">Dining</a></li>
+                <li><a href="#">Groceries</a></li>>-->
+                <li><a href="orders.html">My Orders</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+
+        <!-- MAIN CONTENT -->
+        <main class="content">
+            <section>
+                <h2>Products</h2>
+
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+
+                    <tr>
+                        <td>Cooking Pan</td>
+                        <td>Kitchen</td>
+                        <td>499 SEK</td>
+                        <td>
+                            <form action="cart.html">
+                                <button type="submit">Add to Cart</button>
+                            </form>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Bed Sheets</td>
+                        <td>Bedroom</td>
+                        <td>699 SEK</td>
+                        <td>
+                            <form action="cart.html">
+                                <button type="submit">Add to Cart</button>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+
+            </section>
+        </main>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Classic Home</p>
+    </footer>
 
 </body>
 

@@ -1,0 +1,133 @@
+body {
+    font-family: '#911f8b';
+    margin: 0;
+    background-color: #d0da9a;
+    color: #360d96;
+}
+
+/* Header */
+.site-header {
+    background-color: #d4c25a;
+    color: rgb(31, 14, 133);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Layout */
+main {
+    padding: 20px;
+}
+
+/* Section */
+section {
+    background-color: rgb(175, 202, 52);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Headings */
+h2 {
+    color: #2c3e50;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ecf0f1;
+}
+
+/* Form Styling */
+form {
+    display: block;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+}
+
+button {
+    background-color: #a0803d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d1c55d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #d4c25a;
+    padding: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-menu {
+    list-style: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+.btn {
+    padding: 6px 10px;
+    text-decoration: none;
+    color: rgb(139, 44, 44);
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background-color: #b92978;
+}
+
+.edit-btn:hover {
+    background-color: #911f8b;
+}
+
+.delete-btn {
+    background-color: #c0392b;
+}
+
+.delete-btn:hover {
+    background-color: #922b21;
+}

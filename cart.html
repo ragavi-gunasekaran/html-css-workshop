@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart - Classic Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <h1>Classic Home</h1>
+</header>
+
+<div class="page-layout">
+
+    <nav class="side-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="orders.html">My Orders</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <section>
+            <h2>Your Cart</h2>
+
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+
+                <tr>
+                    <td>Cooking Pan</td>
+                    <td>499 SEK</td>
+                    <td>
+                        <form action="index.html" style="display:inline;">
+                            <button>Edit</button>
+                        </form>
+
+                        <form action="cart.html" style="display:inline;">
+                            <button>Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Proceed to Order -->
+            <form action="orders.html">
+                <h3>Shipping Details</h3>
+
+                <label>
+                    Name:
+                    <input type="text" required>
+                </label>
+
+                <label>
+                    Address:
+                    <input type="text" required>
+                </label>
+
+                <button type="submit">Place Order</button>
+            </form>
+
+        </section>
+    </main>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Classic Home</p>
+</footer>
+
+</body>
+</html>
