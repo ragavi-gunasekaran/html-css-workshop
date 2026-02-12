@@ -2,12 +2,12 @@ body {
     font-family: '#911f8b';
     margin: 0;
     background-color: #f1f3e6;
-    color: #360d96;
+    color: #060113;
 }
 
 .site-header {
     background-color: #d4c25a;
-    color: rgb(31, 14, 133);
+    color: rgb(4, 1, 17);
     text-align: center;
     padding: 20px;
 }
@@ -34,14 +34,16 @@ table {
 }
 
 th, td {
-    border: 1px solid #d0dd9f;
+    border: 1px solid #e6b865;
     padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color: #d4d648;
+    background-color: #d4b91d;
 }
+
+tr:hover {background-color: rgb(223, 134, 18);}
 
 form {
     display: block;
